@@ -54,6 +54,6 @@
       </div>
     </div>
     <a href="index.html" class="link home-link">HOME</a>
-    <!-- key=1 -->
+    <!-- key="How are you?" -->
   </body>
 </html>
