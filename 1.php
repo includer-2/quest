@@ -28,7 +28,7 @@
 ?>
 <html>
     <head>
-        <link href="main.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
         <title>Part I</title>
     </head>
   <body>
