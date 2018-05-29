@@ -44,7 +44,6 @@
               	if(strtoupper($_POST['key']) == $answer):
               			header( "Location: ./fun/good.html" );
               	elseif ($_POST['key']!=$answer): {
-              	  $testtext = 'ololo';
               	  echo "<br / >".strtoupper($_POST['key']).": не верно";
               	}
               	endif;
