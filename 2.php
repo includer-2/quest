@@ -8,7 +8,6 @@
   {
     $answer = strtolower($row['QUESTION']);
   }
-  echo strtolower($answer);
 ?>
 <html>
     <head>
