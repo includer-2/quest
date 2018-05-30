@@ -6,8 +6,9 @@
   $result = mysqli_query($db, $query); 
   while($row=mysqli_fetch_array($result))
   {
-    $answer = strtoupper($row['QUESTION']);
+    $answer = strtolower($row['QUESTION']);
   }
+  echo strtolower($answer);
 ?>
 <html>
     <head>
@@ -25,10 +26,10 @@
             <input type="text" name="key" class="text-center" placeholder="key"><br><br>
             <button type="submit">Go!</button>
               <?php
-              	if(strtoupper($_POST['key']) == $answer):
+              	if(strtolower($_POST['key']) == $answer):
               	  header( "Location: ./fun/good.html" );
               	elseif ($_POST['key']!=$answer): {
-                  echo "<br / >".strtoupper($_POST['key']).": не верно";
+                  echo "<br / >".strtolower($_POST['key']).": не верно";
               	}
               	endif;
               ?>
