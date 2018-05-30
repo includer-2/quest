@@ -150,3 +150,7 @@ button:hover:after, button:hover:before {
   right: 100px;
   text-decoration: none;
 }
+
+.hint {
+  color: white;
+}
