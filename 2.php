@@ -1,5 +1,6 @@
 <?php
   include ('connect.php');
+  include('members.php');
   $path = __FILE__;
   $file = basename($path, ".php");
   $query = "SELECT QUESTION FROM `question` WHERE ID=$file";
