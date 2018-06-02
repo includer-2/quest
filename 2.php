@@ -12,6 +12,7 @@
 <html>
     <head>
         <link href="css/main.css" rel="stylesheet">
+        <link href="css/share.css" rel="stylesheet">
         <title>Part II</title>
     </head>
   <body>
@@ -35,6 +36,26 @@
           </form>
         </div>
       </div>
+    </div>
+    
+    <div class="right">
+      <ul class="share-buttons">
+      <li>
+      	<a href="https://vk.com/share.php?url=https://web-askaptyuk.c9users.io" target="_blank" title="VK">
+      		<img alt="Share on VK" src="images/simple_icons_black/vk.png" />
+      	</a>
+      </li>
+      <li>
+      	<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fweb-askaptyuk.c9users.io%2F1.php&quote=WEB%20Quest" title="Share on Facebook" target="_blank">
+      		<img alt="Share on Facebook" src="images/simple_icons_black/Facebook.png" />
+      	</a>
+      </li>
+      <li>
+      	<a href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fweb-askaptyuk.c9users.io%2F1.php&text=WEB%20Quest:%20https%3A%2F%2Fweb-askaptyuk.c9users.io%2F1.php" target="_blank" title="Tweet">
+      		<img alt="Tweet" src="images/simple_icons_black/Twitter.png" />
+      	</a>
+      </li>
+      </ul>
     </div>
     <a href="index.html" class="link home-link">HOME</a>
     <!-- key="How are you?" -->
